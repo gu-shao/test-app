@@ -51,9 +51,8 @@ def main():
 
     # 切换题目
     if st.button("🔄 换一道题"):
-        if st.button("🔄 换一道题"):
-            st.session_state.q_idx = random.randint(0, len(questions) - 1)
-            st.experimental_rerun()
+        st.session_state.q_idx = random.randint(0, len(questions) - 1)
+        st.experimental_rerun()
 
 
 

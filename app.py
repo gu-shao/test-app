@@ -7,8 +7,8 @@ def load_questions():
         return json.load(f)
 
 def main():
-    st.set_page_config(page_title="刷题练习系统", layout="centered")
-    st.markdown("<h1 style='text-align: center; color: #4CAF50;'>📘 我的刷题小助手</h1>", unsafe_allow_html=True)
+    st.set_page_config(page_title="练题系统", layout="centered")
+    st.markdown("<h1 style='text-align: center; color: #4CAF50;'>📘党课习题</h1>", unsafe_allow_html=True)
     st.markdown("---")
 
     questions = load_questions()

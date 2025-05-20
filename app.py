@@ -51,7 +51,7 @@ def main():
     # 换题按钮
     if st.button("🔄 换一道题"):
         st.session_state.q_idx = random.randint(0, len(questions) - 1)
-        st.experimental_rerun()
+        st.rerun()
 
     st.markdown("---")
     st.caption("© 2025 我的刷题助手 | Streamlit 构建")
